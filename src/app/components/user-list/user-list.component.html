@@ -1,0 +1,8 @@
+<div class="user-list">
+  <mat-card *ngFor="let user of users" (click)="viewUserDetails(user.id)">
+    <img mat-card-avatar [src]="user.avatar" alt="User Avatar">
+    <mat-card-title>{{ user.first_name }} {{ user.last_name }}</mat-card-title>
+    <mat-card-subtitle>ID: {{ user.id }}</mat-card-subtitle>
+  </mat-card>
+</div>
+<mat-paginator [length]="totalUsers" [pageSize]="pageSize" (page)="changePage($event)"></mat-paginator>

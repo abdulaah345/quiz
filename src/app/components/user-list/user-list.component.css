@@ -1,22 +1,15 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    background-color: #3f51b5;
-    color: white;
-  }
-  
-  .user-list {
+.user-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 1rem;
+    gap: 1rem; 
     padding: 1rem;
   }
   
   mat-card {
     cursor: pointer;
     transition: transform 0.2s;
-  }
+    margin-bottom: 1rem;
+  } 
   
   mat-card:hover {
     transform: scale(1.05);

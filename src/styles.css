@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background: #3f51b5;
+    color: white;
+  }
+  
+  .user-list {
+    padding: 16px;
+  }
+  
+  .user-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .user-card {
+    cursor: pointer;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .user-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  .card {
+    padding: 16px;
+  }
+  
